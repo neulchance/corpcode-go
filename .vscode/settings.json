@@ -1,0 +1,18 @@
+{
+  "go.gopath": "/Users/tazgong/workspace/project/disclosur/.disclosur-govenv",
+  "go.useLanguageServer": true,
+  "[go]": {
+      "editor.snippetSuggestions": "none",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      }
+  },
+  "gopls": {
+      "usePlaceholders": true, // add parameter placeholders when completing a function
+
+      // Experimental settings
+      "completeUnimported": true, // autocomplete unimported packages
+      "deepCompletion": true,     // enable deep completion
+  }
+}
